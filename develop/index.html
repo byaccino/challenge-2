@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>Blake's Professional Portfolio</title>
-  </head>
-  <body>
-    <header id="top">
-      <h1>Blake Yaccino Hatten</h1>
-      <img src="/Users/blakeyaccino/Downloads/bootcamp/challenge-2/assets/blake-hatten.png" alt="Profile image of me." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
-    </header>
-    <main>
-      <section class="card" id="my-work-section">
-        <h2>Links to My Work</h2>
-        <ul>
-          <li>I am a VC at CEAS Investments, an internal fund within a family office that invests in early-stage B2B SaaS</li>
-          <li>Find my written work here: </li>
-      </section>
-      <section class="card" id="contact-me-section">
-        <h2>How to Contact Me</h2>
-        <ul>
-          <li>Email: byaccino@gmail.com</li>
-          <li>Phone: (847)373-9714</li>
-          <li>A padding indicates how much space we want around the content inside an element.</li>
-        </ul>
-      </section>  
-     
-    </main>
 
-    <footer>
-      <p>Thanks for visiting my site!</p>
-    </footer>
-    <script src="./assets/script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Blake's Professional Portfolio</title>
+</head>
+
+<body>
+  <header id="top">
+    <h1>Blake Yaccino Hatten</h1>
+    <img src="/Users/blakeyaccino/Downloads/bootcamp/challenge-2/assets/blake-hatten.png" alt="Profile image of me." />
+    <h2>✨ Open the Console to See What's Happening ✨</h2>
+  </header>
+  <nav>
+    <a href="#my-work-section">My Work</a>
+    <a href="#contact-me-section">Contact Me</a>
+  </nav>
+  <main>
+    <section class="card" id="my-work-section">
+      <h2>Links to My Work</h2>
+      <ul>
+        <li>I am a VC at CEAS Investments, an internal fund within a family office that invests in early-stage B2B SaaS
+        </li>
+        <li>Find my work here </li>
+        <div id="my-projects">
+          <a class="project-card" href="https://github.com/byaccino/prework-study-guide">
+            <div>
+              This is Project 1
+            </div>
+          </a>
+          <a class="project-card" href="https://github.com/byaccino/challenge-1">
+            <div>
+              This is Project 2
+            </div>
+          </a>
+        </div>
+
+    </section>
+    <section class="card" id="contact-me-section">
+      <h2>How to Contact Me</h2>
+      <ul>
+        <li>Email: byaccino@gmail.com</li>
+        <li>Phone: (847)373-9714</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Thanks for visiting my site!</p>
+  </footer>
+  <script src="./assets/script.js"></script>
+</body>
+
 </html>
